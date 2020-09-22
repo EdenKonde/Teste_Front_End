@@ -119,8 +119,8 @@
     background: radial-gradient(circle, rgb(137, 201, 202) 0%, rgb(21, 139, 136) 100%, rgb(163, 156, 140) 100%);
     text-align: center;
     color: #FFFFFF;
-    min-width: 360px;
-    min-height: 62px;
+    min-width: 15%;
+    min-height: 15%;
     align-content: center;
     margin-left: 35%;
     border-radius: 4px;
@@ -181,7 +181,8 @@ iframe {
     #button {
         margin-left:0px;
         padding: 0px;
-        width: 100%;
+        margin-left
+        font-size: 0.5rem;
     }
 @media (min-width: 768px) and (max-width: 1024px) {
     #coda {
@@ -189,6 +190,12 @@ iframe {
     }
     #menu {
         padding-left: 200px;
+    }
+    #button {
+        margin-left:0px;
+        padding: 0px;
+        font-size: 0.5rem;
+    
     }
 }
 @media (min-width: 1025px) {

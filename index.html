@@ -51,14 +51,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                            <p>
-                                Lorem ipsum dolor sit met, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis auto irure dolor in repreherit in voluptater.
-                            </p>
+                        <p>
+                            Lorem ipsum dolor sit met, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis auto irure dolor in repreherit in voluptater.
+                        </p>
                     </div>
-                    <div id="button">
-                        SAIBA MAIS
+                    <div class="col-md-12">
+                       <button id="button" type="submit" class="col-xs-12 col-sm-3 col-md-3  btn btn-secondary">SAIBA MAIS</button>
                     </div>
-                    </div>
+                </div>
                 <div id="perfil" class="row">    
                 <div class="card-deck">
                     <div class="card text-center col-xs-12 col-sm-3 col-md-3 col-lg-3">
@@ -120,11 +120,11 @@
             </div>
         </div>
         <div id ="footer" class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>Envia Uma Mensagem</h3>
-                        <form name="frm" method="post" action="#">
-                            <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Envia Uma Mensagem</h3>
+                    <form name="frm" method="post" action="#">
+                        <div class="form-group">
                             <label >Nome*</label>   
                             <input type="text" class="form-control" placeholder="">
                             </div>
@@ -134,20 +134,24 @@
                             <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                             </div>
                             <div class="form-group">
-                            <label for="contato">Contacto*</label>
+                            <label for="contato">Contato*</label>
                             <input type="number" class="form-control" id="contato" placeholder="(11)------">
-                            </div>
+                        </div>
                             <button onclick="validaForm()" type="submit" class="btn btn-secondary">Enviar</button>
-                        </form> 
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Aos pouco Metros do Metrô Santa Cruz</h3>
-                        <iframe classe="responsive-iframe" src="map.html">
-                        </iframe>
+                    </form> 
+                </div>
+                <div class="col-md-6">
+                    <h3>Aos pouco Metros do Metrô Santa Cruz</h3>
+                    <iframe classe="responsive-iframe" src="map.html">
+                    </iframe>
 
-                    </div>
-                </div>    
+                </div>
             </div>
+            <footer class="page-footer font-small  pt-4">
+                    <div class="footer-copyright text-center py-3">
+                        Cinetica.ag-© 2020
+                    </div>
+            </footer>    
         </div> 
         <script>
             //Validação formulário
